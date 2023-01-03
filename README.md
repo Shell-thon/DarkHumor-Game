@@ -7,11 +7,10 @@
 
 ### Fun.py: what programmers do for fun
 - First install python3
-[Get here](https://www.python.org/downloads/) ** Windows
-- `sudo apt install python3` ** Linux
-####After Installation
-- Open Terminal
-- Run this command python3 Fun.py
+[Get here](https://www.python.org/downloads/) ### Windows
+- `sudo apt install python3` #### Linux
+#### After Installation
+- Open Terminal and run the command `python3 Fun.py`
 
 ## Author
 ### _Adejare Michael_
