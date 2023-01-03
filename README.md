@@ -3,12 +3,12 @@
 ### Are you a memer or you support dark hurmor and similar experience
 ##### Welcome to the world of Dark Humor gaming
 
-##List of games below
+## List of games below
 
 ### Fun.py: what programmers do for fun
 - First install python3
-[Get here](https://www.python.org/downloads/) ### Windows
-- `sudo apt install python3` #### Linux
+[Windows here](https://www.python.org/downloads/)
+- For linux run this command `sudo apt install python3`
 #### After Installation
 - Open Terminal and run the command `python3 Fun.py`
 
