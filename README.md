@@ -12,6 +12,11 @@
 #### After Installation
 - Open Terminal and run the command `python3 Fun.py`
 
+
+## Collaborate on this Project
+[![Email Me](email-badge.png)](mailto:shellterminal0@gmail.com)
+
+
 ## Author
 ### _Adejare Michael_
 

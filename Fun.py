@@ -1,13 +1,48 @@
 #!/usr/bin/env python
 
-print("Use lower case for input please\n")
+import random
+import colorama
+
+colorama.init()
+
+def rainbow(s):
+    colors = [
+        colorama.Fore.RED,
+        colorama.Fore.YELLOW,
+        colorama.Fore.GREEN,
+        colorama.Fore.CYAN,
+        colorama.Fore.BLUE,
+        colorama.Fore.MAGENTA
+    ]
+    output = ""
+    for i, c in enumerate(s):
+        output += random.choice(colors) + c
+    return output
+
+def greeting():
+    images = [
+        "   /\_/\  ",
+        "  ( o.o ) ",
+        "  >^<   ",
+        "  '' '' ",
+        "  ( - )( - )  "
+    ]
+    image = random.choice(images)
+    name = "DARK HUMOR GAME"
+    decorated_name = rainbow(name)
+
+    print(decorated_name)
+    print(image)
+
+greeting()
 
 languages = ['python', 'java', 'c', 'c#', 'ruby', 'perl', 'c++', 'php']
 
-print("Choose a programming language:")
+print("\n I use python to code")
 for i, language in enumerate(languages, start=1):
 	print(f"{i} - {language}")
-print("9 - others")
+print("9 - others \n")
+print("Pick your language: \n")
 
 i = int(input())
 if i < 1 or i > 9:
