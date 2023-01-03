@@ -14,7 +14,7 @@
 
 
 ## Collaborate on this Project
-[![Email Me](email-badge.png)](mailto:shellterminal0@gmail.com)
+[![Email Me]](mailto:shellterminal0@gmail.com)
 
 
 ## Author
