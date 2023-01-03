@@ -1,4 +1,8 @@
-#!/usr/sh
+#!/usr/bin/env python
+
+########################
+## AUTHOR: Adejare Michael
+########################
 print("USE LOWER CASE FOR INPUT PLEASE\n")
 
 List = 1, 2, 3, 4, 5, 6, 7, 8
